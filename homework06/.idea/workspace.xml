@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43263649-6a8d-419a-82b9-549d5cbb22cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b6579297-163e-4e2d-9b1f-e9805aaa0bf8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MeinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestMM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework05/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,108 +17,79 @@
   <component name="CheckStyle-IDEA-workspace">
     <option name="configuration">
       <map>
-        <entry key="last-active-plugin-version" value="5.22.1" />
+        <entry key="last-active-plugin-version" value="5.23.0" />
       </map>
     </option>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1881211794">
+    <session id="1684698290">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2328" />
+          <entry key="java" value="2599" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2328" />
+          <entry key="JAVA" value="2599" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestMM.java">
+        <entry file="file://$PROJECT_DIR$/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="225">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MinHeap.java">
+        <entry file="file://$PROJECT_DIR$/TestMM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1583">
-              <caret line="131" column="13" lean-forward="true" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestOR.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="5165">
+              <caret line="393" column="45" lean-forward="true" selection-start-line="393" selection-start-column="45" selection-end-line="393" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#24312#24313#0" expanded="true" />
+                <element signature="e#24355#24356#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestZM.java">
+        <entry file="file://$PROJECT_DIR$/MapEntry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MinHeapStudentTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1536">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1236">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,10 +105,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>new Obj</find>
-      <find>new obj</find>
-      <find>object</find>
-      <find>size</find>
+      <find>entry(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,12 +114,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test.java" />
-        <option value="$PROJECT_DIR$/MinHeapStudentTests.java" />
+        <option value="$PROJECT_DIR$/MeinTest.java" />
+        <option value="$PROJECT_DIR$/TestSB.java" />
+        <option value="$PROJECT_DIR$/HashMap.java" />
         <option value="$PROJECT_DIR$/TestMM.java" />
-        <option value="$PROJECT_DIR$/MinHeap.java" />
-        <option value="$PROJECT_DIR$/TestOR.java" />
-        <option value="$PROJECT_DIR$/TestZM.java" />
       </list>
     </option>
   </component>
@@ -158,7 +127,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -168,14 +137,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="homework05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework05" type="462c0819:PsiDirectoryNode" />
+              <item name="homework06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework06" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +158,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538447455335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539044768509" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -209,63 +178,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestZM">
-    <configuration name="MinHeapStudentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework05" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinHeapStudentTests" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinHeapStudentTests.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework05" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinHeapStudentTests" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestMM">
     <configuration name="TestMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework05" />
+      <module name="homework06" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework05" />
+    <configuration name="TestMM.put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework06" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestOR" />
+      <option name="MAIN_CLASS_NAME" value="TestMM" />
+      <option name="METHOD_NAME" value="put" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestZM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework05" />
+    <configuration name="TestSB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework06" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestZM" />
+      <option name="MAIN_CLASS_NAME" value="TestSB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSB.largeInputSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework06" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSB" />
+      <option name="METHOD_NAME" value="largeInputSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSB.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework06" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSB" />
+      <option name="METHOD_NAME" value="remove" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MinHeapStudentTests" />
-      <item itemvalue="JUnit.MinHeapStudentTests.testAdd" />
+      <item itemvalue="JUnit.TestSB" />
+      <item itemvalue="JUnit.TestSB.remove" />
+      <item itemvalue="JUnit.TestSB.largeInputSize" />
       <item itemvalue="JUnit.TestMM" />
-      <item itemvalue="JUnit.TestOR" />
-      <item itemvalue="JUnit.TestZM" />
+      <item itemvalue="JUnit.TestMM.put" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestZM" />
-        <item itemvalue="JUnit.TestOR" />
         <item itemvalue="JUnit.TestMM" />
-        <item itemvalue="JUnit.MinHeapStudentTests" />
-        <item itemvalue="JUnit.MinHeapStudentTests.testAdd" />
+        <item itemvalue="JUnit.TestMM.put" />
+        <item itemvalue="JUnit.TestSB" />
+        <item itemvalue="JUnit.TestSB.largeInputSize" />
+        <item itemvalue="JUnit.TestSB.remove" />
       </list>
     </recent_temporary>
   </component>
@@ -274,50 +247,50 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43263649-6a8d-419a-82b9-549d5cbb22cd" name="Default Changelist" comment="" />
-      <created>1538336693896</created>
+      <changelist id="b6579297-163e-4e2d-9b1f-e9805aaa0bf8" name="Default Changelist" comment="" />
+      <created>1538951257945</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1538336693896</updated>
-      <workItem from="1538336697066" duration="8813000" />
-      <workItem from="1538446760612" duration="1054000" />
+      <updated>1538951257945</updated>
+      <workItem from="1538951261295" duration="76000" />
+      <workItem from="1538951359400" duration="12938000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestOR - 2018.10.01 at 22h 21m 03s.xml">
-      <configuration name="TestOR" configurationId="JUnit" />
+    <history-entry file="TestSB_largeInputSize - 2018.10.08 at 20h 04m 39s.xml">
+      <configuration name="TestSB.largeInputSize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOR - 2018.10.01 at 22h 21m 06s.xml">
-      <configuration name="TestOR" configurationId="JUnit" />
+    <history-entry file="TestSB - 2018.10.08 at 20h 04m 48s.xml">
+      <configuration name="TestSB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOR - 2018.10.01 at 22h 21m 08s.xml">
-      <configuration name="TestOR" configurationId="JUnit" />
+    <history-entry file="TestMM - 2018.10.08 at 20h 05m 56s.xml">
+      <configuration name="TestMM" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOR - 2018.10.01 at 22h 21m 11s.xml">
-      <configuration name="TestOR" configurationId="JUnit" />
+    <history-entry file="TestMM_put - 2018.10.08 at 20h 19m 00s.xml">
+      <configuration name="TestMM.put" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOR - 2018.10.01 at 22h 21m 13s.xml">
-      <configuration name="TestOR" configurationId="JUnit" />
+    <history-entry file="TestMM_put - 2018.10.08 at 20h 19m 22s.xml">
+      <configuration name="TestMM.put" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestZM - 2018.10.01 at 22h 21m 51s.xml">
-      <configuration name="TestZM" configurationId="JUnit" />
+    <history-entry file="TestMM_put - 2018.10.08 at 20h 20m 37s.xml">
+      <configuration name="TestMM.put" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestZM - 2018.10.01 at 22h 21m 54s.xml">
-      <configuration name="TestZM" configurationId="JUnit" />
+    <history-entry file="TestMM_put - 2018.10.08 at 20h 21m 44s.xml">
+      <configuration name="TestMM.put" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestZM - 2018.10.01 at 22h 21m 57s.xml">
-      <configuration name="TestZM" configurationId="JUnit" />
+    <history-entry file="TestMM_put - 2018.10.08 at 20h 22m 08s.xml">
+      <configuration name="TestMM.put" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestZM - 2018.10.01 at 22h 22m 00s.xml">
-      <configuration name="TestZM" configurationId="JUnit" />
+    <history-entry file="TestMM_put - 2018.10.08 at 20h 22m 38s.xml">
+      <configuration name="TestMM.put" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestZM - 2018.10.01 at 22h 22m 02s.xml">
-      <configuration name="TestZM" configurationId="JUnit" />
+    <history-entry file="TestMM - 2018.10.08 at 20h 22m 48s.xml">
+      <configuration name="TestMM" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9867000" />
+    <option name="totallyTimeSpent" value="13014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -330,19 +303,19 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992629" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32923833" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="CheckStyle" order="11" visible="true" weight="0.32923833" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32923833" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.32923833" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,59 +334,77 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HashMapStudentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1613">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1236">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="390" column="16" selection-start-line="390" selection-start-column="16" selection-end-line="390" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#12231#12232#0" expanded="true" />
+            <element signature="e#12274#12275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestMM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="5165">
+          <caret line="393" column="45" lean-forward="true" selection-start-line="393" selection-start-column="45" selection-end-line="393" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#24312#24313#0" expanded="true" />
+            <element signature="e#24355#24356#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MinHeapStudentTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1536">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestZM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestOR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1583">
-          <caret line="131" column="13" lean-forward="true" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
         </state>
       </provider>
     </entry>
