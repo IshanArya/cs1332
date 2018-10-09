@@ -274,7 +274,6 @@ public class HashMap<K, V> {
         }
         MapEntry<K, V>[] oldTable = table;
         table = new MapEntry[length];
-        System.out.println("TABLE LENGTH: " + table.length);
         for (MapEntry<K, V> x : oldTable) {
             if (x != null && !x.isRemoved()) {
                 for (int i = 0; i < table.length; i++) {
