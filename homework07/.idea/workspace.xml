@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6579297-163e-4e2d-9b1f-e9805aaa0bf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1b767798-8a2c-4575-8e61-c6e5557763a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../homework04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework06/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,54 +20,112 @@
     </option>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1684698290">
+    <session id="1488184825">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="class" value="1" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2599" />
+          <entry key="java" value="7951" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2599" />
+          <entry key="JAVA" value="7951" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HashMap.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestMM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+            <state relative-caret-position="11448">
+              <caret line="477" column="50" selection-start-line="477" selection-start-column="50" selection-end-line="477" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AVL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4210">
+              <caret line="181" column="28" lean-forward="true" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MapEntry.java">
+        <entry file="file://$PROJECT_DIR$/AVLNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="168">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AVLStudentTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1368">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestBD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24433">
+              <caret line="1027" column="61" selection-start-line="1027" selection-start-column="61" selection-end-line="1027" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestIA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestKS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3720">
+              <caret line="157" column="27" lean-forward="true" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +141,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>entry(</find>
       <find>system</find>
+      <find>sys</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,10 +151,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MeinTest.java" />
-        <option value="$PROJECT_DIR$/TestSB.java" />
+        <option value="$PROJECT_DIR$/TestBD.java" />
+        <option value="$PROJECT_DIR$/TestIA.java" />
         <option value="$PROJECT_DIR$/TestMM.java" />
-        <option value="$PROJECT_DIR$/HashMap.java" />
+        <option value="$PROJECT_DIR$/TestKS.java" />
+        <option value="$PROJECT_DIR$/AVL.java" />
       </list>
     </option>
   </component>
@@ -115,18 +175,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="homework06" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework06" type="462c0819:PsiDirectoryNode" />
+              <item name="homework07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -136,7 +196,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539053921395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540264974368" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -156,67 +216,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMM">
+  <component name="RunManager" selected="JUnit.TestKS">
+    <configuration name="AVLStudentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AVLStudentTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestKS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKS.fuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestKS" />
+      <option name="METHOD_NAME" value="fuzz" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework06" />
+      <module name="homework07" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMM" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMM.put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMM" />
-      <option name="METHOD_NAME" value="put" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSB" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSB.largeInputSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSB" />
-      <option name="METHOD_NAME" value="largeInputSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSB.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSB" />
-      <option name="METHOD_NAME" value="remove" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestSB" />
-      <item itemvalue="JUnit.TestSB.remove" />
-      <item itemvalue="JUnit.TestSB.largeInputSize" />
+      <item itemvalue="JUnit.TestBD" />
       <item itemvalue="JUnit.TestMM" />
-      <item itemvalue="JUnit.TestMM.put" />
+      <item itemvalue="JUnit.AVLStudentTests" />
+      <item itemvalue="JUnit.TestKS" />
+      <item itemvalue="JUnit.TestKS.fuzz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestKS" />
+        <item itemvalue="JUnit.TestBD" />
         <item itemvalue="JUnit.TestMM" />
-        <item itemvalue="JUnit.TestMM.put" />
-        <item itemvalue="JUnit.TestSB" />
-        <item itemvalue="JUnit.TestSB.largeInputSize" />
-        <item itemvalue="JUnit.TestSB.remove" />
+        <item itemvalue="JUnit.TestKS.fuzz" />
+        <item itemvalue="JUnit.AVLStudentTests" />
       </list>
     </recent_temporary>
   </component>
@@ -225,57 +281,56 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6579297-163e-4e2d-9b1f-e9805aaa0bf8" name="Default Changelist" comment="" />
-      <created>1538951257945</created>
+      <changelist id="1b767798-8a2c-4575-8e61-c6e5557763a3" name="Default Changelist" comment="" />
+      <created>1540213951641</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1538951257945</updated>
-      <workItem from="1538951261295" duration="76000" />
-      <workItem from="1538951359400" duration="14619000" />
-      <workItem from="1539737062895" duration="345000" />
+      <updated>1540213951641</updated>
+      <workItem from="1540213954992" duration="24741000" />
+      <workItem from="1540259937773" duration="4800000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMM - 2018.10.08 at 20h 22m 48s.xml">
+    <history-entry file="TestKS - 2018.10.22 at 23h 14m 10s.xml">
+      <configuration name="TestKS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKS - 2018.10.22 at 23h 14m 12s.xml">
+      <configuration name="TestKS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKS - 2018.10.22 at 23h 14m 14s.xml">
+      <configuration name="TestKS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKS - 2018.10.22 at 23h 14m 17s.xml">
+      <configuration name="TestKS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKS - 2018.10.22 at 23h 14m 19s.xml">
+      <configuration name="TestKS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKS - 2018.10.22 at 23h 14m 21s.xml">
+      <configuration name="TestKS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKS - 2018.10.22 at 23h 14m 25s.xml">
+      <configuration name="TestKS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMM - 2018.10.22 at 23h 15m 13s.xml">
       <configuration name="TestMM" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMM - 2018.10.08 at 20h 24m 49s.xml">
-      <configuration name="TestMM" configurationId="JUnit" />
+    <history-entry file="TestBD - 2018.10.22 at 23h 15m 25s.xml">
+      <configuration name="TestBD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMM - 2018.10.08 at 20h 24m 53s.xml">
-      <configuration name="TestMM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMM - 2018.10.08 at 20h 24m 56s.xml">
-      <configuration name="TestMM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMM - 2018.10.08 at 20h 25m 00s.xml">
-      <configuration name="TestMM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMM - 2018.10.08 at 20h 25m 04s.xml">
-      <configuration name="TestMM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMM - 2018.10.08 at 20h 25m 08s.xml">
-      <configuration name="TestMM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMM - 2018.10.08 at 20h 25m 11s.xml">
-      <configuration name="TestMM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMM - 2018.10.08 at 20h 26m 11s.xml">
-      <configuration name="TestMM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMM - 2018.10.08 at 20h 28m 52s.xml">
-      <configuration name="TestMM" configurationId="JUnit" />
+    <history-entry file="TestKS - 2018.10.22 at 23h 17m 59s.xml">
+      <configuration name="TestKS" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15040000" />
+    <option name="totallyTimeSpent" value="29541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -290,11 +345,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.32923833" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32923833" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -313,70 +368,71 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HashMapStudentTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1613">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MeinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="390" column="16" selection-start-line="390" selection-start-column="16" selection-end-line="390" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#12231#12232#0" expanded="true" />
-            <element signature="e#12274#12275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <caret line="246" column="12" selection-start-line="246" selection-start-column="12" selection-end-line="246" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVLNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVLStudentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestIA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24433">
+          <caret line="1027" column="61" selection-start-line="1027" selection-start-column="61" selection-end-line="1027" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestMM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9268">
-          <caret line="393" column="45" lean-forward="true" selection-start-line="393" selection-start-column="45" selection-end-line="393" selection-end-column="45" />
+        <state relative-caret-position="11448">
+          <caret line="477" column="50" selection-start-line="477" selection-start-column="50" selection-end-line="477" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#24312#24313#0" expanded="true" />
-            <element signature="e#24355#24356#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/TestKS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+        <state relative-caret-position="3720">
+          <caret line="157" column="27" lean-forward="true" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapEntry.java">
+    <entry file="file://$PROJECT_DIR$/AVL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="4210">
+          <caret line="181" column="28" lean-forward="true" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
         </state>
       </provider>
     </entry>
