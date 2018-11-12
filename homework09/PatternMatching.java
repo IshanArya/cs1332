@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -26,6 +28,44 @@ public class PatternMatching {
      */
     public static List<Integer> kmp(CharSequence pattern, CharSequence text,
                                     CharacterComparator comparator) {
+        if(pattern == null || pattern.length() == 0) {
+            throw new IllegalArgumentException("Cannot have empty pattern variable.");
+        }
+        if(text == null) {
+            throw new IllegalArgumentException("Cannot search null text.");
+        }
+        if(comparator == null) {
+            throw new IllegalArgumentException("Cannot compare with null comparator.");
+        }
+        List<Integer> matches = new ArrayList<>();
+
+        if(pattern.length() > text.length()) {
+            return matches;
+        }
+
+        int[] failureTable = buildFailureTable(pattern, comparator);
+
+
+        int i = 0;
+        int j = 0;
+        while(i < text.length()) {
+            if(comparator.compare(pattern.charAt(j), text.charAt(i)) != 0) {
+                if(j == 0) {
+                    i++;
+                } else {
+                    j = failureTable[j - 1];
+                }
+            } else {
+                i++;
+                j++;
+            }
+            if(j == pattern.length()) {
+                matches.add(i - j);
+                j = failureTable[j - 1];
+            }
+        }
+
+        return matches;
 
     }
 
@@ -73,15 +113,21 @@ public class PatternMatching {
 
         while(j < pattern.length()) {
             if(comparator.compare(pattern.charAt(i), pattern.charAt(j)) == 0) {
-                failureTable[j] = i + 1;
                 i++;
+                failureTable[j] = i;
                 j++;
             } else {
                 if(i != 0) {
-                    
+                    i = failureTable[i - 1];
+
+                } else {
+                    failureTable[j] = i;
+                    j++;
                 }
             }
         }
+
+        return failureTable;
 
     }
 
@@ -102,6 +148,54 @@ public class PatternMatching {
     public static List<Integer> boyerMoore(CharSequence pattern,
                                            CharSequence text,
                                            CharacterComparator comparator) {
+        if(pattern == null || pattern.length() == 0) {
+            throw new IllegalArgumentException("Cannot have empty pattern variable.");
+        }
+        if(text == null) {
+            throw new IllegalArgumentException("Cannot search null text.");
+        }
+        if(comparator == null) {
+            throw new IllegalArgumentException("Cannot compare with null comparator.");
+        }
+
+        List<Integer> matches = new ArrayList<>();
+
+        if(pattern.length() > text.length()) {
+            return matches;
+        }
+
+        Map<Character, Integer> lastTable = buildLastTable(pattern);
+
+        int i = pattern.length() - 1;
+        int j = i;
+        while(i < text.length()) {
+            char jChar = pattern.charAt(j);
+            char iChar = pattern.charAt(i);
+            if(comparator.compare(jChar, iChar) != 0) {
+                int lastOccurrence = lastTable.getOrDefault(iChar, -1);
+
+                if(lastOccurrence >= 0) {
+                    if(j > lastOccurrence) {
+                        i += j - lastOccurrence;
+                    } else {
+                        i++;
+                    }
+                } else {
+                    i += pattern.length();
+                    j = pattern.length() - 1;
+                }
+
+            } else {
+                i--;
+                j--;
+            }
+            if(j < 0) {
+                matches.add(i + 1);
+                i += pattern.length() + 1;
+                j = pattern.length() - 1;
+            }
+        }
+
 
     }
 
@@ -132,7 +226,16 @@ public class PatternMatching {
      *         to their last occurrence in the pattern
      */
     public static Map<Character, Integer> buildLastTable(CharSequence pattern) {
+        if(pattern == null) {
+            throw new IllegalArgumentException("Pattern cannot be null.");
+        }
 
+        Map<Character, Integer> lastOccurrences = new HashMap<>();
+        for(int i = 0; i < pattern.length(); i++) {
+            lastOccurrences.put(pattern.charAt(i), i);
+        }
+
+        return lastOccurrences;
     }
 
     /**
