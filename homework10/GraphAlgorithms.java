@@ -1,4 +1,12 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Set;
 
 /**
  * Your implementation of various different graph algorithms.
@@ -34,28 +42,35 @@ public class GraphAlgorithms {
      * @param graph the graph to search through
      * @return list of vertices in visited order
      * @throws IllegalArgumentException if any input
-     *                                  is null, or if {@code start} doesn't exist in the graph
+     *                                  is null, or if {@code start} doesn't
+     *                                  exist in the graph
      */
     public static <T> List<Vertex<T>> breadthFirstSearch(Vertex<T> start,
                                                          Graph<T> graph) {
         if (start == null || graph == null) {
             throw new IllegalArgumentException("Inputs cannot be null.");
         }
+        if (!graph.getVertices().contains(start)) {
+            throw new IllegalArgumentException("Vertex start not in graph.");
+        }
         Map<Vertex<T>, List<VertexDistance<T>>> adjList = graph.getAdjList();
         Set<Vertex<T>> visited = new HashSet<>(graph.getVertices().size());
-        List<Vertex<T>> orderedList = new ArrayList<>(graph.getVertices().size());
+        List<Vertex<T>> orderedList = new ArrayList<>(
+                graph.getVertices().size());
         Queue<Vertex<T>> traversalQueue = new LinkedList<>();
 
         traversalQueue.add(start);
+        visited.add(start);
 
         while (!traversalQueue.isEmpty()) {
             Vertex<T> current = traversalQueue.poll();
             orderedList.add(current);
-            visited.add(current);
             List<VertexDistance<T>> adjacentVertices = adjList.get(current);
             for (VertexDistance<T> x : adjacentVertices) {
-                if (!visited.contains(x.getVertex())) {
-                    traversalQueue.add(x.getVertex());
+                Vertex<T> adjacentVertex = x.getVertex();
+                if (!visited.contains(adjacentVertex)) {
+                    visited.add(adjacentVertex);
+                    traversalQueue.add(adjacentVertex);
                 }
             }
         }
@@ -89,12 +104,55 @@ public class GraphAlgorithms {
      * @param graph the graph to search through
      * @return list of vertices in visited order
      * @throws IllegalArgumentException if any input
-     *                                  is null, or if {@code start} doesn't exist in the graph
+     *                                  is null, or if {@code start}
+     *                                  doesn't exist in the graph
      */
     public static <T> List<Vertex<T>> depthFirstSearch(Vertex<T> start,
                                                        Graph<T> graph) {
-        return new ArrayList<>();
+        if (start == null || graph == null) {
+            throw new IllegalArgumentException("Inputs cannot be null.");
+        }
+        if (!graph.getVertices().contains(start)) {
+            throw new IllegalArgumentException("Vertex start not in graph.");
+        }
+        Map<Vertex<T>, List<VertexDistance<T>>> adjList = graph.getAdjList();
+        Set<Vertex<T>> visited = new HashSet<>(graph.getVertices().size());
+        List<Vertex<T>> orderedList = new ArrayList<>(
+                graph.getVertices().size());
 
+        depthFirstSearchHelper(start, adjList, visited, orderedList);
+        return orderedList;
+
+    }
+
+    /**
+     * Recursive helper method for depth first algorithm
+     *
+     * @param current     node to find adjacent vertices of
+     * @param adjList     map containing adjacent vertices
+     * @param visited     set of visited vertices
+     * @param orderedList list to return
+     * @param <T>         generic type of data
+     */
+    private static <T> void depthFirstSearchHelper(Vertex<T> current,
+                                                   Map<Vertex<T>,
+                                                   List<VertexDistance<T>>>
+                                                           adjList,
+                                                   Set<Vertex<T>> visited,
+                                                   List<Vertex<T>>
+                                                           orderedList) {
+        orderedList.add(current);
+        visited.add(current);
+
+        List<VertexDistance<T>> adjacentVerticies = adjList.get(current);
+        for (VertexDistance<T> x : adjacentVerticies) {
+            if (!visited.contains(x.getVertex())) {
+                depthFirstSearchHelper(x.getVertex(),
+                        adjList,
+                        visited,
+                        orderedList);
+            }
+        }
     }
 
 
@@ -132,7 +190,56 @@ public class GraphAlgorithms {
      */
     public static <T> Map<Vertex<T>, Integer> dijkstras(Vertex<T> start,
                                                         Graph<T> graph) {
-        return new HashMap<>();
+        if (start == null || graph == null) {
+            throw new IllegalArgumentException("Inputs cannot be null.");
+        }
+        if (!graph.getVertices().contains(start)) {
+            throw new IllegalArgumentException("Vertex start not in graph.");
+        }
+
+        Map<Vertex<T>, List<VertexDistance<T>>> adjList = graph.getAdjList();
+        Set<Vertex<T>> finalized = new HashSet<>(graph.getVertices().size());
+        Map<Vertex<T>, Integer> shortestDistances =
+                new HashMap<>(graph.getVertices().size());
+
+        for (Vertex<T> x : adjList.keySet()) {
+            if (x.equals(start)) {
+                shortestDistances.put(x, 0);
+            } else {
+                shortestDistances.put(x, Integer.MAX_VALUE);
+            }
+        }
+
+        PriorityQueue<VertexDistance<T>> pQueue = new PriorityQueue<>();
+        pQueue.add(new VertexDistance<>(start, 0));
+
+        while (finalized.size() != graph.getVertices().size()
+                && !pQueue.isEmpty()) {
+            Vertex<T> current = pQueue.poll().getVertex();
+            if (finalized.contains(current)) {
+                continue;
+            }
+            finalized.add(current);
+
+            List<VertexDistance<T>> distances = adjList.get(current);
+            int currentDistanceFromStart = shortestDistances.get(current);
+            for (VertexDistance<T> x : distances) {
+                Vertex<T> adjacentVertex = x.getVertex();
+                if (!finalized.contains(adjacentVertex)) {
+                    int distanceFromStart =
+                            currentDistanceFromStart + x.getDistance();
+                    if (distanceFromStart
+                            < shortestDistances.get(adjacentVertex)) {
+                        shortestDistances.put(adjacentVertex,
+                                distanceFromStart);
+                    }
+                    pQueue.add(x);
+                }
+            }
+        }
+
+        return shortestDistances;
+
     }
 
 
@@ -175,6 +282,29 @@ public class GraphAlgorithms {
      * @throws IllegalArgumentException if any input is null
      */
     public static <T> Set<Edge<T>> kruskals(Graph<T> graph) {
-        return new HashSet<>();
+        if (graph == null) {
+            throw new IllegalArgumentException("Graph cannot be null.");
+        }
+
+        PriorityQueue<Edge<T>> edges = new PriorityQueue<>(graph.getEdges());
+        DisjointSet<Vertex<T>> vertices =
+                new DisjointSet<>(graph.getVertices());
+        Set<Edge<T>> mst = new HashSet<>(graph.getVertices().size() - 1);
+
+        while (!edges.isEmpty()
+                && mst.size() < 2 * (graph.getVertices().size() - 1)) {
+            Edge<T> edge = edges.poll();
+            Vertex<T> u = edge.getU();
+            Vertex<T> v = edge.getV();
+            if (!vertices.find(u).equals(vertices.find(v))) {
+                vertices.union(u, v);
+                mst.add(edge);
+                mst.add(new Edge<>(v, u, edge.getWeight()));
+            }
+        }
+        if (mst.size() != 2 * (graph.getVertices().size() - 1)) {
+            return null;
+        }
+        return mst;
     }
 }
