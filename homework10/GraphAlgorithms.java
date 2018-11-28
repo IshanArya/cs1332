@@ -16,6 +16,7 @@ import java.util.Set;
  * @userid iarya3
  * @GTID 903399427
  */
+@SuppressWarnings("Duplicates")
 public class GraphAlgorithms {
 
     /**
@@ -233,7 +234,7 @@ public class GraphAlgorithms {
                         shortestDistances.put(adjacentVertex,
                                 distanceFromStart);
                     }
-                    pQueue.add(x);
+                    pQueue.add(new VertexDistance<>(adjacentVertex, distanceFromStart));
                 }
             }
         }
